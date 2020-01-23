@@ -5,10 +5,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "item_master")
-public class InventoryItem {
+public class BarCode {
 
-    private BarCode barCode;
-
-    public InventoryItem(String a, String b) {
+    public BarCode(String a, String b) {
     }
 }
